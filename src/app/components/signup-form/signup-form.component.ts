@@ -1,9 +1,10 @@
-import { Component, Renderer2, ElementRef } from '@angular/core';
+import { Component, Renderer2, ElementRef, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-signup-form',
   templateUrl: './signup-form.component.html',
-  styleUrls: ['./signup-form.component.css']
+  styleUrls: ['./signup-form.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class SignupFormComponent {
   fname: string = '';
