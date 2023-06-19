@@ -1,0 +1,143 @@
+.payment_info {
+    background: var(--bg-payment-info);
+    color: var(--font-color-main);
+    margin: 0 0 1.25rem;
+    padding: 1.125rem;
+    text-align: center;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.payment_info p {
+    margin: auto;
+    font-size: .9688rem;
+}
+
+.payment_info p strong {
+    font-weight: 600;
+}
+
+form {
+    width: 33.75rem;
+    background: var(--bg-form);
+    padding: 1.25rem 2.5rem 2.5rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.form_control {
+    position: relative;
+    margin: 1.3125rem 0;
+}
+
+.form_control img {
+    display: none;
+    position: absolute;
+    right: 1.875rem;
+    top: 1.0625rem;
+}
+
+.form_control.error img {
+    display: block;
+}
+
+.input_field {
+    width: 100%;
+    padding: 1rem 4.375rem 1rem 1.875rem;
+    font-size: .875rem;
+    font-weight: 700;
+    border: .0625rem solid var(--color-input-border);
+    border-radius: .3125rem;
+}
+
+.form_control.error .input_field {
+    border: .1875rem solid #ff7978;
+    color: #ff7978;
+}
+
+.error_txt {
+    display: none;
+    margin: .3125rem 0 0rem;
+    color: #ff7978;
+    font-size: .6875rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: right;
+}
+
+.form_control.error .error_txt {
+    display: block;
+}
+
+.submit_btn {
+    display: block;
+    width: 100%;
+    background: var(--bg-submit-form);
+    color: var(--font-color-main);
+    padding: 1.0625rem 0 .6875rem;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    border: none;
+    border-radius: .3125rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.submit_btn:hover {
+    background: #77e2b4;
+}
+
+.tos_info {
+    display: block;
+    margin: 1.25rem 0 0;
+    color: var(--font-color-tos);
+    font-size: .6875rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tos_info a {
+    color: #ff7978;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.payment_info::after,
+form::after {
+    content: '';
+    width: 100%;
+    height: 1.25rem;
+    background: #de6566;
+    border-radius: 0 0 .625rem .625rem;
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    z-index: -1;
+}
+
+@media(max-width: 600px) {
+    .payment_info {
+        width: 88%;
+        margin: 2.875rem auto 1.25rem;
+    }
+
+    .payment_info p {
+        width: 80%;
+    }
+
+    form {
+        width: 88%;
+        margin: auto;
+        padding: .3125rem 1.5625rem 1.25rem;
+    }
+
+    .form_control {
+        margin: 1.125rem 0;
+    }
+
+    .tos_info {
+        width: 80%;
+        margin: .9375rem auto 0;
+        line-height: 1.7;
+    }
+}

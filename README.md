@@ -1,27 +1,28 @@
-# IntroComponentWithSignupForm
+# Intro component with sign up form solution | solution to the Frontend Mentor challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Screenshot
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![](./src/assets/screenshot/screenshot.webp)
 
-## Code scaffolding
+## Link
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Live Site URL: ()
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- This is an application showing an intro component with a simple sign-up form
+- Fill in the form. After successfully validating the form, a notification about creating an account will be displayed (It's just a simulation)
 
-## Running unit tests
+## Built with
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- HTML5
+- CSS3
+- Angular
+- TypeScript
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Frontend Mentor - (https://www.frontendmentor.io/profile/k-malkiewicz)
+- Codewars - (https://www.codewars.com/users/k_malkiewicz)

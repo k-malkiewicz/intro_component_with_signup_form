@@ -1,0 +1,10 @@
+.intro_container {
+    color: var(--font-color-main);
+    width: 31.25rem;
+}
+
+@media(max-width: 600px) {
+    .intro_container {
+        width: 100%;
+    }
+}

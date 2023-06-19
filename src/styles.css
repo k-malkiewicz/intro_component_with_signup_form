@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bg-color: linear-gradient(#ff7978, #ff7978);
+    --bg-payment-info: #6055a5;
+    --bg-form: #fff;
+    --bg-submit-form: #38cc8c;
+    --font-color-main: #fff;
+    --font-color-tos: #b9b6d3;
+    --color-input-border: #ddd;
+    --font-stack: "Poppins", "sans-serif";
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-stack);
+}
+
+body {
+    background: #ff7978 url('./assets/img/bg-intro-desktop.png') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3.0625rem;
+    margin: 1.5625rem 0 1.875rem;
+    line-height: 1.1;
+}
+
+@media(max-width: 1140px) {
+    body {
+        background-image: url('./assets/img/bg-intro-mobile.png');
+    }
+    p,
+    h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 1.75rem;
+        margin: 1.5625rem auto 1.25rem;
+        width: 70%;
+        line-height: 1.4;
+    }
+
+    p {
+       width: 85%;
+       margin: auto;
+    }
+}

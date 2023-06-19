@@ -1,0 +1,14 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 4.375rem;
+}
+
+@media(max-width: 1140px) {
+    main {
+        padding: 4.375rem 0;
+        flex-direction: column;
+    }
+}
